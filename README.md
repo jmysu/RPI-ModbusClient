@@ -1,13 +1,13 @@
 # RPI-ModbusClient
 A Modbus Client/Master for PLC controller, base on QT5
 
-<BR><BR>
+<br/><br/>
 TOYO controller in action
 ![FABRIK Test1]<br/>
-<img src="gif/Toyo0105.gif" width="400"/> <br>
+<img src="gif/Toyo0105.gif" width="320"/> <br>
 IAI controller in action
-![FABRIK Test2](gif/IAI0109.gif) <br/><br/>
-
+![FABRIK Test2]<br/>
+<img src="gif/IAI0109.gif" width="320"/> <br>
 
 # MBPoll command line read RTU:
 ---
