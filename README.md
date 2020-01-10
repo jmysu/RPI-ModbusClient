@@ -1,6 +1,6 @@
 # RPI-ModbusClient
 A Modbus Client/Master for PLC controller, base on QT5
-<img src="gif/QtModbusClientMaster0110.png: width="800/>
+<img src="gif/QtModbusClientMaster0110.png" width="800"/>
 <br/><br/>
 TOYO controller in action
 ![Toyo TC100]<br/>
