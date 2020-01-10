@@ -6,7 +6,7 @@ TOYO controller in action
 ![Toyo TC100]<br/>
 <img src="gif/Toyo0105.gif" width="300"/> <br/>
 IAI controller in action
-![IAI]<br/>
+![IAI MC0162]<br/>
 <img src="gif/IAI0109.gif" width="300"/> <br/>
 
 # MBPoll command line read RTU:
