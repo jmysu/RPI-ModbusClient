@@ -5,8 +5,8 @@ A Modbus Client/Master for PLC controller, base on QT5
 <br/><br/>
 
 TOYO controller in action
-![Toyo TC100]<br/>
-<img src="gif/Toyo0105.gif" width="300"/> <br/>
+![Toyo TC100] ![IAI MC0162]<br/>
+<img src="gif/Toyo0105.gif" width="300"/><img src="gif/IAI0109.gif" width="300"/> <br/>
 IAI controller in action
 ![IAI MC0162]<br/>
 <img src="gif/IAI0109.gif" width="300"/> <br/>
