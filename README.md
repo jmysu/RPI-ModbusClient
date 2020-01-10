@@ -1,7 +1,9 @@
 # RPI-ModbusClient
 A Modbus Client/Master for PLC controller, base on QT5
 <img src="gif/QtModbusClientMaster0110.png" width="800"/>
+
 <br/><br/>
+
 TOYO controller in action
 ![Toyo TC100]<br/>
 <img src="gif/Toyo0105.gif" width="300"/> <br/>
@@ -19,5 +21,6 @@ IAI controller in action
 
 
 ### References
-  - [MBPoll](https://github.com/epsilonrt/mbpoll)
+  - [RPI SerialPort Enable](https://www.raspberrypi.org/documentation/configuration/uart.md)
+  - [MBPoll commandline utility](https://github.com/epsilonrt/mbpoll)
 
