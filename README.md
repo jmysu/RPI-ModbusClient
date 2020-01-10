@@ -11,11 +11,11 @@ IAI controller in action
 
 # MBPoll command line read RTU:
 ---
-  -#!/bin/bash
-  -#check TC100 model name
-  -#
-  -mbpoll -b19200 -Pnone -t4:hex -r 0x10E0 -0 -c3 /dev/ttyS0 -1
-  -mbpoll -b19200 -Pnone -t4:hex -r 0x10F0 -0 -c1 /dev/ttyS0 -1
+    #!/bin/bash
+    #check TC100 model name
+    #
+    mbpoll -b19200 -Pnone -t4:hex -r 0x10E0 -0 -c3 /dev/ttyS0 -1
+    mbpoll -b19200 -Pnone -t4:hex -r 0x10F0 -0 -c1 /dev/ttyS0 -1
 
 
 ### References
