@@ -3,11 +3,11 @@ A Modbus Client/Master for PLC controller, base on QT5
 
 <br/><br/>
 TOYO controller in action
-![FABRIK Test1]<br/>
-<img src="gif/Toyo0105.gif" width="320"/> <br>
+![Toyo TC100]<br/>
+<img src="gif/Toyo0105.gif" width="300"/> <br/>
 IAI controller in action
-![FABRIK Test2]<br/>
-<img src="gif/IAI0109.gif" width="320"/> <br>
+![IAI]<br/>
+<img src="gif/IAI0109.gif" width="300"/> <br/>
 
 # MBPoll command line read RTU:
 ---
