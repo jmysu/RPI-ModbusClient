@@ -1,0 +1,22 @@
+Category,___ Description ___,Count,Reg,RWc/RWr,______ Value  ______,Wait(ms),Loop,Act/Run
+ControllerInfo,MotorType,	8,0x10D0,Rr,,500,1,0
+ControllerInfo,Controller,	8,0x10E0,Rr,,500,1,0
+ControllerInfo,FirmwareNo,	8,0x10F0,Rr,,500,1,0
+Status,ActionStatus,		1,0x1000,Rr,,100,1,0
+Status,InpStatus,		1,0x1001,Rr,,100,1,0
+Status,AlarmStatus,		1,0x1005,Rr,,100,1,0
+Status,ServoStatus,		1,0x100C,Rr,,100,1,0
+Status,ErrorStatus,		1,0x100D,Rr,,100,1,0
+Status,OUT1_10,			1,0x1020,Rr,,100,1,0
+Status,IN1_14_Z,		1,0x1040,Rr,,100,1,0
+Action,Servo On0,		1,0x2011,Wr,0,500,1,1
+Action,Servo Off1,		1,0x2011,Wr,1,500,1,0
+Action,MovSpeed,		1,0x2014,Wr,32,500,1,1
+Action,MovType ORG,		1,0x201E,Wr,3,1000,1,1
+Action,MovType Jog+,		1,0x201E,Wr,B,300,1,1
+Action,MovType Jog-,		1,0x201E,Wr,C,300,1,1
+Action,MovType RAlarm,		1,0x201E,Wr,6,300,1,1
+Action,MovType ABS,		1,0x201E,Wr,1,1000,1,1
+Action,MovAbs+,			2,0x2002,Wr,0000 1388,500,1,0
+Action,MovAbs-,			2,0x2002,Wr,0000 0000,500,1,0
+Action,MovType STOP,		1,0x201E,Wr,9,100,1,0

@@ -1,0 +1,15 @@
+Category,___ Description ___,	Count,Reg,RWc/RWr,______ Value  ______,Wait(ms),Loop,Act/Run
+ControllerInfo,MotorType,	8,0x10E0,Rr,,100,1,1
+;
+;
+Action,MovSpeed,		1,0x2014,Wr,64,200,1,1
+Action,Servo On0,		1,0x2011,Wr,0,999,1,1
+Action,MovType ORG,		1,0x201E,Wr,3,999,1,1
+;
+;
+Parameter,Enable,		4,0x999B,Wr,4C76 3032 5479 5667,200,1,0
+Speed,AecelTime,		1,0x0804,Wr,64,100,1,0
+Speed,AccelTime, 		1,0x0804,Rr,,100,1,0
+Speed,DecelTime,		1,0x0805,Wr,32,100,1,0
+Speed,DecelTime,		1,0x0805,Rr,,100,1,0
+Parameter,Save,			1,0x9999,Wr,0,200,1,0

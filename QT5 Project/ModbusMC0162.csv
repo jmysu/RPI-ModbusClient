@@ -1,0 +1,20 @@
+Category,______ Description ______,Count,Reg,RWc/RWr,______ Value  ______,Wait(ms),Loop,Act/Run
+Modbus,Enable,	1,0x0427,Wc,0xFF00,100,1,1
+Servor,On,	1,0x0403,Wc,0xFF00,200,1,1
+Home,Norm,	1,0x040B,Wc,0x0000,500,1,1
+Home,Reset,	1,0x040B,Wc,0xFF00,500,1,1
+Alarm,Reset,	1,0x0407,Wc,0xFF00,200,1,1
+STP,NoStop, 	1,0x040A,Wc,0x0000,200,1,1
+Action,CSTR,	1,0x040C,Wc,0xFF00,200,1,1
+Status,PNow,	2,0x9000,Rc,	  ,100,1,1
+
+; 
+Action,MOVE Abs,2,0x9900,Wr,0000 0BB0,500,1,1
+Status,PNow,	2,0x9000,Rc,	  ,100,1,1
+;
+Action,MOVE Abs,2,0x9900,Wr,0000 0064,500,1,0
+Status,PNow,	2,0x9000,Rc,	  ,100,1,0
+;
+Action,JOG+,	1,0x0416,Wc,0xFF00,500,1,0
+;
+Action,JOG-,	1,0x0417,Wc,0xFF00,500,1,0

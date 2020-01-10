@@ -1,0 +1,12 @@
+Category,___ Description ___,Count,Reg,RWc/RWr,______ Value  ______,Wait(ms),Loop,Act/Run
+ControllerInfo, Controller,     8,0x10E0,Rr,             ,200,1,1
+;;Action, Servo On0,             1,0x2011,Wr,0            ,500,1,1
+Action, MovSpeed,               1,0x2014,Wr,64           ,100,1,1
+;;Action, MovType ORG,           1,0x201E,Wr,3            ,900,1,1
+Action, MovAbs+,                2,0x2002,Wr,0000 1388  ,100,1,1
+Action, MovType ABS,            1,0x201E,Wr,1            ,300,1,1
+Status, InPosition,             1,0x0700,Rr,             ,200,1,1
+Action, MovAbs-,                2,0x2002,Wr,0000 0000  ,100,1,1
+Action, MovType ABS,            1,0x201E,Wr,1            ,300,1,1
+Status, InPosition,             1,0x0700,Rr,             ,200,1,1
+Action, MovAbs-,                4,0x2002,Wr,0000 0001 0002 0003,100,1,0
